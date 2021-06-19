@@ -1,0 +1,13 @@
+.header{
+  background:#FF0011;
+  padding:8px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input{
+  border:none;
+  border-radius: 1rem;
+  margin-left:1rem;
+}

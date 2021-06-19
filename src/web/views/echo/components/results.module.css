@@ -1,0 +1,18 @@
+.container{
+  background:#E5E5E5;
+  padding:4rem;
+}
+
+.content{
+  padding: 2rem;
+  background:#FFFFFF;
+  margin:auto auto;
+  border-radius: 1rem;
+}
+
+.result{
+  border:solid 1px #474747;
+  padding:1rem;
+  margin-bottom:1rem;
+  border-radius: 1rem;
+}
