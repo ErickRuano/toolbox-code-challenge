@@ -61,7 +61,7 @@ docker run -p 3000:3000 -d erickruano/toolbox-technical-challenge
 		○ ✅ Instructions for running this project
 		○ ✅ Project architecture
 		○ ✅ API documentation
-        ○ 🟨 Relevant code comments
+        ○ 🟥 Relevant code comments
 	- Technical requirements
 		○ Backend
 			- ✅ Node.js 12
@@ -77,7 +77,7 @@ docker run -p 3000:3000 -d erickruano/toolbox-technical-challenge
 			- ✅ Node.js 12
 			- ✅ Webpack
 			- ✅ React
-			- 🟨 Bootstrap
+			- ✅ Bootstrap
 			- Opcionales:
 				□ 🟥 Redux
 				□ 🟥 Jest
