@@ -61,12 +61,11 @@ docker run -p 3000:3000 -d erickruano/toolbox-technical-challenge
 		○ ✅ Instructions for running this project
 		○ ✅ Project architecture
 		○ ✅ API documentation
-        ○ 🟥 Relevant code comments
 	- Technical requirements
 		○ Backend
 			- ✅ Node.js 12
 			- ✅ ExpressJs
-			- 🟨 Mocha + Chai
+			- ✅ Mocha + Chai
 			- 🟨 Supertest
 			- ✅ Self-contained
 			- ✅ Utilizar JavaScript (ES6+) (y no TS, Dart, Elm, etc.)
