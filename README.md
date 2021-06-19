@@ -71,7 +71,7 @@ docker run -p 3000:3000 -d erickruano/toolbox-technical-challenge
 			- ✅ Utilizar JavaScript (ES6+) (y no TS, Dart, Elm, etc.)
 			- Opcionales:
 				□ ✅ Docker
-				□ 🟨 StandardJS
+				□ ✅ StandardJS
 		○ Frontend
 			- ✅ Node.js 12
 			- ✅ Webpack
