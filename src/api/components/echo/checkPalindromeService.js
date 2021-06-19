@@ -1,4 +1,5 @@
 function checkPalindrome(str) {
+  try{
     var re = /[^A-Za-z0-9]/g;
     str = str.toLowerCase().replace(re, '');
     var len = str.length;
@@ -7,7 +8,11 @@ function checkPalindrome(str) {
           return false; 
       }
     }
-    return true;
-   }
+    return true;    
+  }catch(err){
+    throw new Error('Invalid argument type')
+  }
+    
+}
 
    module.exports = checkPalindrome
