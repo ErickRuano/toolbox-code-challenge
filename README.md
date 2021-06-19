@@ -66,7 +66,7 @@ docker run -p 3000:3000 -d erickruano/toolbox-technical-challenge
 			- ✅ Node.js 12
 			- ✅ ExpressJs
 			- ✅ Mocha + Chai
-			- 🟨 Supertest
+			- ✅ Supertest
 			- ✅ Self-contained
 			- ✅ Utilizar JavaScript (ES6+) (y no TS, Dart, Elm, etc.)
 			- Opcionales:
