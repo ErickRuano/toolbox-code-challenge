@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx standard 'src/**/*.js' 'src/**/*.jsx' && mocha 'src/**/*.test.js'  || true && jest \"front/.*\\.jest\\.js\"",
-    "jest": "jest",
+    "test": "npx standard 'src/**/*.js' 'src/**/*.jsx' && mocha 'src/**/*.test.js'  || true && jest",
     "build": "webpack build",
     "start": "node bin/www"
   },
@@ -34,7 +33,9 @@
   },
   "standard": {
     "ignore": [
-      "/src/**/*.test.js"
+      "/src/**/*.test.js",
+      "/src/**/*.jest.js",
+      "/public/*"
     ]
   },
   "devDependencies": {

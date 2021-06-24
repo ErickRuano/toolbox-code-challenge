@@ -1,5 +1,4 @@
-const webpack = require('webpack')
-const path = require('path');
+const path = require('path')
 
 module.exports = {
   entry: path.resolve(__dirname, './src/web/app.js'),
@@ -8,7 +7,7 @@ module.exports = {
       {
         test: /\.(js|jsx)$/,
         exclude: /node_modules/,
-        use: ['babel-loader'],
+        use: ['babel-loader']
       },
       {
         test: /\.css$/,
@@ -39,10 +38,10 @@ module.exports = {
           limit: 10000
         }
       }
-    ],
+    ]
   },
   resolve: {
-    extensions: ['*', '.js', '.jsx'],
+    extensions: ['*', '.js', '.jsx']
   },
   output: {
     path: path.resolve(__dirname, './public'),
@@ -53,4 +52,4 @@ module.exports = {
   devServer: {
     contentBase: path.resolve(__dirname, './public')
   }
-};
+}
