@@ -26,18 +26,24 @@ This repository contains my work submission for the technical code challenge by 
 
 To run this project locally:
 
-```
+```bash
 git clone https://github.com/erickruano/toolbox-technical-challenge.git
 cd toolbox-technical-challenge
 npm install
+
+# This will run StandardJS for all the code, Mocha for the backend and Jest for the frontend
 npm test
+
+# This will bundle the frontend react application into ./public/bundle.js
 npm build
+
+# This will start the server at port 3000 serving both the frontend and the backend
 npm start
 ```
 
 To deploy with Docker:
 
-```
+```bash
 docker build . -t erickruano/toolbox-technical-challenge
 docker run -p 3000:3000 -d erickruano/toolbox-technical-challenge
 ```
@@ -79,7 +85,7 @@ docker run -p 3000:3000 -d erickruano/toolbox-technical-challenge
 			- ✅ Bootstrap
 			- Opcionales:
 				□ 🟥 Redux
-				□ 🟥 Jest
+				□ ✅ Jest
 ```
 
 # Architecture
@@ -150,3 +156,11 @@ GET | /api/iecho | Returns reversed text | text  |
     "isPalindrome": Boolean
 }
 ```
+
+# Notes
+
+- Since both Mocha and Jest are setup in the same project, Mocha will run test on any .test.js file while Jest will run tests on .jest.jsx files instead of the default behaviour.
+
+- Since I didn't use create-react-app to generate this project, it might not display all of the currently best practices that come out of the box, but I hope displaying the ability to set a modern project from scratch adds more value.
+
+- I wasn't able to make enough time to implement Redux, especially because it is a new library to me and I am still learning React best practices through an online course.
