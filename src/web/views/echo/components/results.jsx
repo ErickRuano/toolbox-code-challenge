@@ -9,8 +9,8 @@ class Results extends React.Component {
           Results:<br/>
           {this.props.echoes.reverse().map((echo, index) => {
             return (
-              <div key={index} className={styles.result}>
-                <p>Original text: {echo.text}</p>
+              <div key={index} className={styles.result} id="result-container">
+                <p id={`text-${index}`}>Original text: {echo.text}</p>
                 <p>Reversed text: {echo.reversedText}</p>
                 <p>Is Palindrome: {echo.isPalindrome.toString()}</p>
               </div>
